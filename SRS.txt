@@ -1,13 +1,16 @@
-3.1	Purpose
+#	Purpose:
 
 The main purpose of this doorbell system is to leverage the existing conventional doorbell systems, providing more comfort and ease for the customers with available  technology.
-3.2	Audience and usage
+
+Audience and usage:
 
 Audience with the persona who are geeky about new technology at the same time having the trust in it, to use it in their regular lockers or safes are the niche for this product solution along with organizational bodies which deal with important entities or relating to architectural field use this product.
-3.3	Assumptions and Dependencies
+
+# Assumptions and Dependencies
 
 Few assumptions that are considered while developing this system is that the users have a good condition and maintenance of the device as well as the mobile devices that are done. Also, assuming that this doorbell system is not give much      exposure to moisture or water even though portable. 
-3.4.1	Functional Requirements
+
+Functional Requirements:
 
 Functional requirements of this system include
 
@@ -21,14 +24,13 @@ Functional requirements of this system include
 
 
 
-
-3.4.2	External Interface Requirements
+#	External Interface Requirements
 
 This system requires the user to press the doorbell when he/she might need to press it for telling owner that he/she is at door. The NodeMCU which is connected to doorbell button module will send notification to owner’s device.
 
 
 
-3.4.3	Non Functional Requirements
+Non Functional Requirements:
 
 In Non functional requirements the safety and quality of the components as well as the circuits matter a lot which directly and indirectly effects the working cycle of the product.
 Also, making the system more secure and surrounding proof becomes the most important non functional requirement in this case.
@@ -52,3 +54,24 @@ The connections for this are simple, with only 4 major connections from fingerpr
 •	Push button to D1,
 
 •	Resistor in series with LED
+
+
+#	Testing
+
+There are two major tests that define whether this system is working right.
+
+1.	Switching on LED on main button which is visible to outdoor person
+
+2.	Getting notification in mobile/PC by the owner
+
+#	Explanation
+
+During making of connection the main focus was on making a doorbell with no sounds so that it can use at no noise areas such as hospitals, old people staying homes, so to avoid any disturbance by the people around.
+ 
+Application Used:
+
+During construction several applications are tested such as:
+•	Blynk
+•	Webserver messaging
+•	RemoteMe
+Out of which best suited is RemoteMe because it helps to send notification in an easy and convenient way and can be managed easily by the owner.
