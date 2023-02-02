@@ -32,3 +32,23 @@ This system requires the user to press the doorbell when he/she might need to pr
 
 In Non functional requirements the safety and quality of the components as well as the circuits matter a lot which directly and indirectly effects the working cycle of the product.
 Also, making the system more secure and surrounding proof becomes the most important non functional requirement in this case.
+
+Components that are required to make the construction is that :
+•	NodeMCU 
+
+•	RemoteMe Application
+
+•	Resistor
+
+•	Push Button
+
+•	LED
+
+•	Jumper wires
+
+The connections for this are simple, with only 4 major connections from fingerprint sensor and output led or solenoid lock.
+•	LED to pin D2,
+
+•	Push button to D1,
+
+•	Resistor in series with LED
